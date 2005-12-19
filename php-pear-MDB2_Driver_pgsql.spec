@@ -15,21 +15,21 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f2677312c9bf534ba7d984c75a83c2c6
 URL:		http://pear.php.net/package/MDB2_Driver_pgsql/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-Requires:	php-pear
 Requires:	php-common >= 3:4.3.0
-Requires:	php-pear-PEAR >= 1:1.0b1
+Requires:	php-pear
 Requires:	php-pear-MDB2 >= 2.0.0-0.beta6
+Requires:	php-pear-PEAR >= 1:1.0b1
 Requires:	php-pgsql
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the PostGreSQL MDB2 driver.
+This is the PostgreSQL MDB2 driver.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Sterownik PostGreSQL dla MDB2.
+Sterownik PostgreSQL dla MDB2.
 
 Ta klasa ma w PEAR status: %{_status}.
 
