@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - pgsql MDB2 driver
 Summary(pl):	%{_pearname} - sterownik pgsql dla MDB2
 Name:		php-pear-%{_pearname}
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	90e3ba36905075f49a3c6425e8d5cea9
+# Source0-md5:	d20495c7349d71c0f5fbb8dd88f7d811
 URL:		http://pear.php.net/package/MDB2_Driver_pgsql/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
