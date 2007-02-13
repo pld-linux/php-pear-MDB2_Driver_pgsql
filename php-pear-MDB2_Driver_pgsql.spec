@@ -5,7 +5,7 @@
 %define		_pearname	MDB2_Driver_pgsql
 
 Summary:	%{_pearname} - pgsql MDB2 driver
-Summary(pl.UTF-8):   %{_pearname} - sterownik pgsql dla MDB2
+Summary(pl.UTF-8):	%{_pearname} - sterownik pgsql dla MDB2
 Name:		php-pear-%{_pearname}
 Version:	1.2.2
 Release:	2
