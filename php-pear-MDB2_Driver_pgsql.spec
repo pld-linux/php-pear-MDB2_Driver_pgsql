@@ -8,7 +8,7 @@ Summary:	%{_pearname} - pgsql MDB2 driver
 Summary(pl.UTF-8):	%{_pearname} - sterownik pgsql dla MDB2
 Name:		php-pear-%{_pearname}
 Version:	1.4.1
-Release:	1
+Release:	2
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
