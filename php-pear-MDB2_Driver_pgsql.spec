@@ -2,7 +2,6 @@
 %define		_pearname	MDB2_Driver_pgsql
 %define		subver	b4
 %define		rel		1
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - pgsql MDB2 driver
 Summary(pl.UTF-8):	%{_pearname} - sterownik pgsql dla MDB2
 Name:		php-pear-%{_pearname}
